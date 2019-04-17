@@ -1,0 +1,37 @@
+{
+"_id": "5cb0ac8118efc5e25cb52e1b",
+        "wine_image": "image",
+        "wine_name": "wine_name",
+        "wine_country": "wine_country",
+        "wine_avgGrade": 3,
+        "wine_curationGrade": 4,
+        "wine_comment": [
+            {
+                "_id": "5cb0ac8118efc5e25cb52e1c",
+                "auth": "Ryu",
+                "userGrade": 5,
+                "content": "very good thing!"
+            }
+        ]
+}
+
+{
+    "wine_name_kor" : String,
+    "wine_name_eng" : String,
+    "wine_id" : Number,
+    "wine_color" : String,
+    "wine_country" : String,
+    "wine_image" : String,
+    "wine_avgGrade" : Number,
+    "wine_curationGrade" : number,
+    "Alcohol" : Number,
+    "food" : [{"food_name": String, "food_cnt" : Number}],
+    "price" : Number,
+    "shop" : [{"shop_which" : String, "shop_name" : String, "shop_phone" : String }], 
+    "size" : String,
+    "comment" : [{"user_id": String, "body" : String, "date" : Date}],
+    "user_rating" : [{"user_id" : String, "rating_start" : Number, }],
+    "user_rating_cnt" : Number,
+    "taste-rating" : {"sweetness" : Number},
+    "date" : Date
+}
